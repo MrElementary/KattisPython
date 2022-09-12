@@ -1,0 +1,5 @@
+x = input().split()
+articles = int(x[0])
+impact_factor = int(x[1])
+under_value = articles *(impact_factor-1)
+print(under_value+1)
